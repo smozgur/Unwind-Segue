@@ -23,7 +23,7 @@
 		845B5ACD1D51FEA9000C0CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845B5AD01D51FEA9000C0CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845B5AD21D51FEA9000C0CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		845B5AD81D52049D000C0CBA /* No1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = No1ViewController.swift; path = ../No1ViewController.swift; sourceTree = "<group>"; };
+		845B5AD81D52049D000C0CBA /* No1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = No1ViewController.swift; path = No1ViewController.swift; sourceTree = "<group>"; };
 		845B5ADA1D5204B3000C0CBA /* No2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = No2ViewController.swift; sourceTree = "<group>"; };
 		845B5ADC1D5204C4000C0CBA /* No3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = No3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
