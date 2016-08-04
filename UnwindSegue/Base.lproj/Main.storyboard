@@ -72,27 +72,42 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RvU-BO-3tV">
-                                <rect key="frame" x="250.5" y="398" width="99" height="30"/>
+                                <rect key="frame" x="250.5" y="375" width="99" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="2Id-06-pin" kind="show" id="9OZ-zL-WfM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOD-AP-gst">
+                                <rect key="frame" x="133" y="421" width="334.5" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="27e-BY-IVR"/>
+                                </constraints>
+                                <string key="text">Back button will pass Name value back and 
+set as nav bar title in VC1</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Zge-gl-y3m" firstAttribute="top" secondItem="g55-Dq-55R" secondAttribute="bottom" constant="14.5" id="0yo-mw-5Hg"/>
+                            <constraint firstItem="A0S-UU-o0T" firstAttribute="top" secondItem="EOD-AP-gst" secondAttribute="bottom" constant="135" id="2PV-Lz-uez"/>
                             <constraint firstItem="Zge-gl-y3m" firstAttribute="centerX" secondItem="RIv-WA-WT0" secondAttribute="centerX" id="2iI-Wu-FcR"/>
                             <constraint firstItem="g55-Dq-55R" firstAttribute="centerX" secondItem="RIv-WA-WT0" secondAttribute="centerX" id="GTC-Tc-Gng"/>
+                            <constraint firstItem="EOD-AP-gst" firstAttribute="centerX" secondItem="RIv-WA-WT0" secondAttribute="centerX" id="ICa-af-nTF"/>
                             <constraint firstItem="A0S-UU-o0T" firstAttribute="top" secondItem="RvU-BO-3tV" secondAttribute="bottom" constant="172" id="QSf-re-AIh"/>
                             <constraint firstItem="Zge-gl-y3m" firstAttribute="leading" secondItem="g55-Dq-55R" secondAttribute="leading" id="Wnd-rN-jNE"/>
                             <constraint firstItem="RvU-BO-3tV" firstAttribute="centerX" secondItem="RIv-WA-WT0" secondAttribute="centerX" id="XE9-JT-RUB"/>
+                            <constraint firstItem="EOD-AP-gst" firstAttribute="top" secondItem="RvU-BO-3tV" secondAttribute="bottom" constant="16" id="YFp-US-BHW"/>
                             <constraint firstItem="RvU-BO-3tV" firstAttribute="leading" secondItem="Zge-gl-y3m" secondAttribute="leading" id="vtY-3k-GTO"/>
                             <constraint firstItem="g55-Dq-55R" firstAttribute="centerY" secondItem="RIv-WA-WT0" secondAttribute="centerY" id="wk9-Iu-GHf"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="Wnd-rN-jNE"/>
+                                <exclude reference="QSf-re-AIh"/>
                             </mask>
                         </variation>
                     </view>

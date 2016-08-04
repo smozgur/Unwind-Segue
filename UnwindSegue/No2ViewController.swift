@@ -8,12 +8,14 @@
 
 import UIKit
 
-class No2ViewController: UIViewController {
+class No2ViewController: UIViewController, UINavigationControllerDelegate {
 
     @IBOutlet weak var txtName: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.delegate = self
         
         self.navigationItem.title = "Enter Name"
     }
@@ -22,6 +24,10 @@ class No2ViewController: UIViewController {
         if let vc = segue.destinationViewController as? No3ViewController {
             vc.navigationItem.title = self.txtName.text
         }
+    }
+    
+    func navigationController(navigationController: UINavigationController, willShowViewController viewController: UIViewController, animated: Bool) {
+        viewController.title = self.txtName.text
     }
 
 
